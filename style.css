@@ -8,11 +8,49 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  
+  line-height: 1.3;
 }
 a {
   text-decoration: none;
   color: black;
+}
+
+header{
+  display: flex;
+  width: 100%;
+  background-color: #fc944c;
+  height: 120px;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#logo-picture{
+  width: 170px;
+  height: 120px;
+}
+.menu ul{
+  display: flex;
+  gap: 200px;
+}
+.menu a{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+.menu a:hover{
+  color: black;
+}
+#login-button{
+  background-color:#ffffff;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  border: none;
+}
+#login-button a{
+  color:#fc944c;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 main {
@@ -27,7 +65,7 @@ img {
 .container {
   max-width: 1280px;
   margin: 0px auto;
-  padding: 40px 8px;
+  padding: 60px 8px;
   display: flex;
   align-items: center;
   font-size: 2rem;
@@ -74,53 +112,89 @@ img {
   background-color: #fc944c;
 }
 
+#imagem-quem-somos {
+  width: 90%;
+  border-radius: 10px;
+}
+
 .container-quem-somos {
   text-align: center;
   display: flex;
+  align-items: center;
   flex-direction: column;
   max-width: 1280px;
   margin: 0px auto;
-  padding: 32px 0px;
+  padding: 60px 0px;
 }
 
 .container-quem-somos p {
   font-size: 1.3rem;
+  margin-bottom: 40px;
 }
 
-header{
-    display: flex;
-    width: 100%;
-    background-color: #fc944c;
-    height: 120px;
-    justify-content:space-around;
-    align-items: center;
-    flex-wrap: wrap;
+.produtos {
+  background-color: #fcead5;
 }
-#logo-picture{
-    width: 170px;
-    height: 120px;
+
+.container-produtos {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
 }
-.menu ul{
-    display: flex;
-    gap: 200px;
+
+.subtitulos h3{
+  padding-bottom: 20px;
+  font-size: 2rem;
 }
-.menu a{
-    text-decoration: none;
-    font-size: 30px;
-    color: white;
+
+.subtitulos button {  
+  margin-top: 20px;
+  background-color: #ffffff;
+  color: #fc944c;
+  padding: 8px 16px;
+  border: 1px solid #fc944c;
+  border-radius: 4px;
+  font-size: 1rem;
 }
-.menu a:hover{
-    color: black;
+
+#botao-borda {
+  border: 1px solid #fcead5;
+  background-color: #fc944c;
+  color: #fcead5;
 }
-#login-button{
-    background-color:#ffffff;
-    border-radius: 10px;
-    width: 100px;
-    height: 50px;
-    border: none;
+
+#botao-borda:hover {
+  background-color: #fcead5;
+  color: #fc944c;
 }
-#login-button a{
-    color:#fc944c;
-    font-size: 20px;
-    text-decoration: none;
+
+.subtitulos button:hover {  
+  background-color: #fcbb5c;
+  border: 1px solid #ffffff;
+  font-size: 1rem;
+  color: #ffffff;
+cursor: pointer;
+}
+
+.img-produtos {
+  width: 60%;
+  border-radius: 10px;
+}
+
+.produtos-conta-corrente {
+  background-color: #fc944c;
+}
+
+.container-conta-corrente {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
 }
