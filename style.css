@@ -7,6 +7,8 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
 }
 a {
   text-decoration: none;
@@ -85,3 +87,40 @@ img {
   font-size: 1.3rem;
 }
 
+header{
+    display: flex;
+    width: 100%;
+    background-color: #fc944c;
+    height: 120px;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#logo-picture{
+    width: 170px;
+    height: 120px;
+}
+.menu ul{
+    display: flex;
+    gap: 200px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.menu a:hover{
+    color: black;
+}
+#login-button{
+    background-color:#ffffff;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
+#login-button a{
+    color:#fc944c;
+    font-size: 20px;
+    text-decoration: none;
+}
