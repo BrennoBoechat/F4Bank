@@ -1,3 +1,4 @@
+  
 /* cores principais 
   laranja-escuro: #fc944c;
   laranja-claro: #fcbb5c; 
@@ -207,6 +208,36 @@ img {
   gap: 50px;
 }
 
+
+footer {
+
+    width: 96%;
+    background-color: #fc944c;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 96%;
+}
+
+.banco{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+
+.end {
+    text-align: center;
+    margin-bottom:32px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Estilos Responsividade */
 
 @media (max-width: 1200px) {
@@ -286,4 +317,5 @@ img {
     justify-items: center;
     text-align: center;
   }
+
 }
